@@ -1,8 +1,3 @@
-# ============================================================
-#  .gitignore — projet ACRP quantique (Python + LaTeX + macOS)
-#  Renomme ce fichier en .gitignore (avec le point) a la racine du repo
-# ============================================================
-
 # ---------- SECRETS : NE JAMAIS COMMITTER ----------
 gurobi.lic
 *.lic
