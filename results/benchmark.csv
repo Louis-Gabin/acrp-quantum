@@ -1,0 +1,7 @@
+instance,aircraft,solver,energy,feasible,manoeuvres,seconds,notes
+CP_3,3,exact_bruteforce,2.0,True,2,0.17,ground truth
+CP_3,3,simulated_annealing,2.0,True,2,0.63,"reads=40,sweeps=400"
+CP_3,3,qaoa_numpy_p2,16.0,False,0,6.21,P(opt)=0.0625
+CP_4,4,exact_bruteforce,3.0,True,3,5.72,ground truth
+CP_4,4,simulated_annealing,3.0,True,3,0.8,"reads=40,sweeps=400"
+CP_5,5,simulated_annealing,4.0,True,4,10.73,"reads=120,sweeps=1500"

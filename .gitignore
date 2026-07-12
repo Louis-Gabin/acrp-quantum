@@ -1,0 +1,56 @@
+# ============================================================
+#  .gitignore — projet ACRP quantique (Python + LaTeX + macOS)
+#  Renomme ce fichier en .gitignore (avec le point) a la racine du repo
+# ============================================================
+
+# ---------- SECRETS : NE JAMAIS COMMITTER ----------
+gurobi.lic
+*.lic
+.env
+*.env
+ibm_quantum_token*
+*api_key*
+*_token*
+
+# ---------- Python ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+Icon?
+
+# ---------- Editeurs ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- LaTeX (fichiers auxiliaires de compilation) ----------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+# On GARDE le PDF final si tu veux le versionner : commente la ligne suivante
+# *.pdf
+
+# ============================================================
+#  A GARDER (ne pas ignorer) : code .py, *.tex, figures .png,
+#  resultats .csv, README, requirements.txt
+# ============================================================
