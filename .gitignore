@@ -42,7 +42,6 @@ Icon?
 *.blg
 *.run.xml
 *.bcf
-# On GARDE le PDF final si tu veux le versionner : commente la ligne suivante
 # *.pdf
 
 # ============================================================
