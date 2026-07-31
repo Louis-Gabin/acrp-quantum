@@ -93,7 +93,7 @@ pip install gurobipy   # needs Gurobi >= 12
 
 Get a free academic licence at https://www.gurobi.com/academia/ and run
 `grbgetkey` as instructed. Then open `baseline_gurobi/ACRP_gurobi.ipynb`
-(you will need the `.dat` instance files; ask David or export from `acrp-lib`).
+(you will need the `.dat` instance files; ask David or export from `acrp-quantum`).
 
 Important: the model uses `gurobipy.nlfunc.cos/sin`, which exists only in
 Gurobi >= 12. On an older version the import fails.

@@ -1,0 +1,13 @@
+instance,n,M,qubits,conflict_constraints,gurobi_manoeuvres,gurobi_status,gurobi_gap,gurobi_time_s,sa_reads,sa_sweeps,sa_manoeuvres,sa_feasible,sa_time_s,sa_matches_opt
+CP_10,10,5,50,215,9,optimal,0.0,0.002,20,800,5,False,0.545,False
+RNDF10_1,10,5,50,24,1,optimal,0.0,0.0,20,800,6,True,0.594,False
+RNDF10_2,10,5,50,87,5,optimal,0.0,0.001,20,800,6,False,0.551,False
+CP_12,12,5,60,366,11,optimal,0.0,0.003,20,800,5,False,0.686,False
+RNDF12_1,12,5,60,106,3,optimal,0.0,0.003,20,800,4,False,0.662,False
+RNDF12_2,12,5,60,66,3,optimal,0.0,0.001,20,800,6,False,0.656,False
+CP_25,25,5,125,1700,25,optimal,0.0,0.018,10,500,4,False,0.426,False
+RNDF25_1,25,5,125,325,11,optimal,0.0,0.004,10,500,12,False,0.422,False
+RNDF25_2,25,5,125,191,5,optimal,0.0,0.002,10,500,12,False,0.433,False
+CP_50,50,5,250,7125,-1,infeasible,,0.037,6,300,4,False,0.286,False
+RNDF50_1,50,5,250,1063,34,optimal,0.0,0.012,6,300,17,False,0.297,False
+RNDF50_2,50,5,250,1255,-1,infeasible,,0.008,6,300,17,False,0.311,False

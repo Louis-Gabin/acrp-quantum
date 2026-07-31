@@ -2,7 +2,7 @@
 
 This folder holds the **simplified** exact solver provided by Pr. David Rey to
 work on, deliberately stripped of the more complex parameters of his full public
-solver (`acrp-lib`, https://github.com/Louis-Gabin/acrp-lib, formulation from
+solver (`acrp-quantum`, https://github.com/Louis-Gabin/acrp-quantum, formulation from
 DOI 10.1016/j.ejor.2021.03.059). The files are kept faithful to the version he
 gave; only this README documents them.
 

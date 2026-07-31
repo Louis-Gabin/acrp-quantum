@@ -1,0 +1,13 @@
+instance,n,M,qubits,conflict_constraints,gurobi_manoeuvres,gurobi_status,gurobi_gap,gurobi_time_s,sa_reads,sa_sweeps,sa_manoeuvres,sa_feasible,sa_time_s,sa_matches_opt
+CP_10,10,5,50,215,9,optimal,0.0,0.024,20,800,5,False,0.585,False
+RND10_1,10,5,50,24,1,optimal,0.0,0.002,20,800,6,True,0.608,False
+RND10_2,10,5,50,67,-1,infeasible,,0.001,20,800,6,False,0.571,False
+CP_12,12,5,60,366,11,optimal,0.0,0.003,20,800,5,False,0.693,False
+RND12_1,12,5,60,106,3,optimal,0.0,0.003,20,800,4,False,0.637,False
+RND12_2,12,5,60,90,-1,infeasible,,0.001,20,800,6,False,0.671,False
+CP_25,25,5,125,1700,25,optimal,0.0,0.018,10,500,4,False,0.45,False
+RND25_1,25,5,125,321,-1,infeasible,,0.002,10,500,12,False,0.41,False
+RND25_2,25,5,125,325,11,optimal,0.0,0.004,10,500,12,False,0.403,False
+CP_50,50,5,250,7125,-1,infeasible,,0.039,6,300,4,False,0.298,False
+RND50_1,50,5,250,1513,-1,infeasible,,0.009,6,300,13,False,0.334,False
+RND50_2,50,5,250,1207,-1,infeasible,,0.008,6,300,12,False,0.295,False

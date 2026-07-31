@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ---------- SECRETS : NE JAMAIS COMMITTER ----------
 gurobi.lic
 *.lic
@@ -6,45 +7,109 @@ gurobi.lic
 ibm_quantum_token*
 *api_key*
 *_token*
+=======
+# ------------------------------------------------------------------
+# acrp-quantum .gitignore
+# ------------------------------------------------------------------
 
-# ---------- Python ----------
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+>>>>>>> 3d02b9f (Add IBM Quantum Runbook and run script + Update to old files)
+
+# --- Virtual environments ---
 .venv/
 venv/
 env/
-__pycache__/
-*.py[cod]
-*.egg-info/
+.python-version
+
+# --- Jupyter ---
 .ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
+*.nbconvert.ipynb
 
-# ---------- macOS ----------
+# --- Credentials / secrets (IBM Quantum, Gurobi, generic) ---
+# save_account writes to ~/.qiskit outside the repo, but guard against
+# a local copy or any exported token ending up here.
+.qiskit/
+*qiskit-ibm*.json
+*.token
+.env
+.env.*
+secrets.*
+gurobi.lic
+gurobi.log
+
+# --- OS / editor cruft ---
 .DS_Store
-.AppleDouble
-Icon?
-
-# ---------- Editeurs ----------
+.DS_Store?
+Thumbs.db
 .vscode/
 .idea/
 *.swp
+*~
 
-# ---------- LaTeX (fichiers auxiliaires de compilation) ----------
+# --- Optional: LaTeX build artefacts ---
+# Only relevant if you ever version the manuscript inside this repo.
 *.aux
 *.log
 *.out
 *.toc
 *.lof
 *.lot
+*.synctex.gz
 *.fls
 *.fdb_latexmk
+*.bbl
+*.blg
+<<<<<<< HEAD
+*.run.xml
+*.bcf
+# *.pdf
+=======
+>>>>>>> 3d02b9f (Add IBM Quantum Runbook and run script + Update to old files)
+
+# ------------------------------------------------------------------
+# NOTE: results/ is intentionally NOT ignored. The reproducibility
+# promise of the thesis relies on the benchmark / scaling / stats CSVs
+# being versioned. If you want to keep the live IBM hardware output
+# (which stores a job_id) out of the repo, uncomment the next line:
+# results/ibm_hardware_cp3.json
+# ------------------------------------------------------------------
+# --- OS / editor cruft ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Optional: LaTeX build artefacts ---
+# Only relevant if you ever version the manuscript inside this repo.
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
 *.synctex.gz
+*.fls
+*.fdb_latexmk
 *.bbl
 *.blg
 *.run.xml
 *.bcf
 # *.pdf
 
-# ============================================================
-#  A GARDER (ne pas ignorer) : code .py, *.tex, figures .png,
-#  resultats .csv, README, requirements.txt
-# ============================================================
+# ------------------------------------------------------------------
+# NOTE: results/ is intentionally NOT ignored. The reproducibility
+# promise of the thesis relies on the benchmark / scaling / stats CSVs
+# being versioned. If you want to keep the live IBM hardware output
+# (which stores a job_id) out of the repo, uncomment the next line:
+# results/ibm_hardware_cp3.json
+# ------------------------------------------------------------------
