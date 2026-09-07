@@ -1,0 +1,257 @@
+{
+  "backend": "ibm_kingston",
+  "campaign_id": "20260830T203911222372Z",
+  "common_initial_physical_layout": [
+    79,
+    93,
+    92,
+    73,
+    94,
+    91,
+    74,
+    95,
+    90
+  ],
+  "job_id": "daa99rhqtnsc73d2d1l0",
+  "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_replication_control_plan_cp3_20260830T201007516547Z.json",
+  "plan_file_sha256": "451a6cd24182d3d412bf472e7b59460281a286fb8c16f7aec5d12020ba2181cf",
+  "plan_payload_sha256": "f55d5c8761451657f56839e9054d9718d578748bf433ec2f132ecb832edbb74f",
+  "pub_order": [
+    "p2_A",
+    "p6",
+    "p3_true",
+    "p2_B",
+    "p4",
+    "p3_null",
+    "p1",
+    "p2_C"
+  ],
+  "schema_version": 1,
+  "shots_per_pub": 4096,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.49.0",
+    "scipy": "1.18.0"
+  },
+  "submitted_at_utc": "2026-08-30T20:39:11.222441Z",
+  "transpilation": [
+    {
+      "final_physical_layout": [
+        74,
+        95,
+        90,
+        73,
+        92,
+        91,
+        79,
+        94,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 250,
+      "label": "p2_A",
+      "two_qubit_gates": 141
+    },
+    {
+      "final_physical_layout": [
+        74,
+        95,
+        90,
+        73,
+        79,
+        91,
+        94,
+        92,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 831,
+      "label": "p6",
+      "two_qubit_gates": 513
+    },
+    {
+      "final_physical_layout": [
+        74,
+        90,
+        95,
+        73,
+        94,
+        91,
+        79,
+        92,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 404,
+      "label": "p3_true",
+      "two_qubit_gates": 243
+    },
+    {
+      "final_physical_layout": [
+        74,
+        95,
+        90,
+        73,
+        92,
+        91,
+        79,
+        94,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 250,
+      "label": "p2_B",
+      "two_qubit_gates": 141
+    },
+    {
+      "final_physical_layout": [
+        90,
+        74,
+        73,
+        95,
+        91,
+        94,
+        92,
+        79,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 606,
+      "label": "p4",
+      "two_qubit_gates": 339
+    },
+    {
+      "final_physical_layout": [
+        74,
+        90,
+        95,
+        73,
+        94,
+        91,
+        79,
+        92,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 405,
+      "label": "p3_null",
+      "two_qubit_gates": 243
+    },
+    {
+      "final_physical_layout": [
+        74,
+        90,
+        95,
+        73,
+        91,
+        79,
+        94,
+        93,
+        92
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 122,
+      "label": "p1",
+      "two_qubit_gates": 56
+    },
+    {
+      "final_physical_layout": [
+        74,
+        95,
+        90,
+        73,
+        92,
+        91,
+        79,
+        94,
+        93
+      ],
+      "initial_physical_layout": [
+        79,
+        93,
+        92,
+        73,
+        94,
+        91,
+        74,
+        95,
+        90
+      ],
+      "isa_depth": 250,
+      "label": "p2_C",
+      "two_qubit_gates": 141
+    }
+  ]
+}

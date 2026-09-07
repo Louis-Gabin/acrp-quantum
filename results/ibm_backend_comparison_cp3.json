@@ -1,0 +1,138 @@
+{
+  "problem": "CP_3",
+  "n": 3,
+  "M": 3,
+  "qubits": 9,
+  "p": 1,
+  "seed": 1,
+  "gammas": [
+    4.805503657095598
+  ],
+  "betas": [
+    2.730936055686168
+  ],
+  "backends": [
+    {
+      "backend": "ibm_fez",
+      "device_qubits": 156,
+      "isa_depth": 150,
+      "two_qubit_gates": 63,
+      "initial_physical_layout": [
+        110,
+        109,
+        118,
+        112,
+        111,
+        108,
+        98,
+        107,
+        129
+      ],
+      "final_physical_layout": [
+        112,
+        129,
+        107,
+        98,
+        108,
+        111,
+        110,
+        118,
+        109
+      ],
+      "mean_2q_error": 0.0022411394858767785,
+      "max_2q_error": 0.0029893891046628707,
+      "mean_readout_error": 0.008517795138888888,
+      "operations": {
+        "sx": 133,
+        "rz": 105,
+        "cz": 63,
+        "measure": 9,
+        "x": 1,
+        "barrier": 1
+      }
+    },
+    {
+      "backend": "ibm_marrakesh",
+      "device_qubits": 156,
+      "isa_depth": 150,
+      "two_qubit_gates": 63,
+      "initial_physical_layout": [
+        110,
+        109,
+        118,
+        112,
+        111,
+        108,
+        98,
+        107,
+        129
+      ],
+      "final_physical_layout": [
+        112,
+        129,
+        107,
+        98,
+        108,
+        111,
+        110,
+        118,
+        109
+      ],
+      "mean_2q_error": 0.0021023644606932477,
+      "max_2q_error": 0.0024354584688097147,
+      "mean_readout_error": 0.008599175347222222,
+      "operations": {
+        "sx": 133,
+        "rz": 105,
+        "cz": 63,
+        "measure": 9,
+        "x": 1,
+        "barrier": 1
+      }
+    },
+    {
+      "backend": "ibm_kingston",
+      "device_qubits": 156,
+      "isa_depth": 150,
+      "two_qubit_gates": 63,
+      "initial_physical_layout": [
+        108,
+        107,
+        97,
+        110,
+        109,
+        106,
+        118,
+        105,
+        87
+      ],
+      "final_physical_layout": [
+        110,
+        87,
+        105,
+        118,
+        106,
+        109,
+        108,
+        97,
+        107
+      ],
+      "mean_2q_error": 0.0019245289671487083,
+      "max_2q_error": 0.0030834585556732963,
+      "mean_readout_error": 0.006374782986111111,
+      "operations": {
+        "sx": 133,
+        "rz": 105,
+        "cz": 63,
+        "measure": 9,
+        "x": 1,
+        "barrier": 1
+      }
+    }
+  ],
+  "structural_ranking": [
+    "ibm_kingston",
+    "ibm_marrakesh",
+    "ibm_fez"
+  ]
+}

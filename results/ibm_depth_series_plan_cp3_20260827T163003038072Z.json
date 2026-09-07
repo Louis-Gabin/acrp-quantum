@@ -1,0 +1,189 @@
+{
+  "circuit_qubits": 9,
+  "created_at_utc": "2026-08-27T16:30:03.038148Z",
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "heading_options": 3,
+  "instance": "CP_3",
+  "maxiter": 2000,
+  "mode": "local_plan_no_ibm_contact",
+  "num_aircraft": 3,
+  "num_manoeuvres": 3,
+  "optimum_manoeuvres": 2,
+  "p1_reference_expected_qubo_energy": 26.98595550598172,
+  "plans": [
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        2.686095526923323
+      ],
+      "depth": 1,
+      "expected_qubo_energy": 14.488900432243172,
+      "gammas": [
+        0.046777923718150906
+      ],
+      "ideal_feasibility_same_angles": 0.12194846690693104,
+      "ideal_p_opt_same_angles": 0.09447023753460398,
+      "optimizer": {
+        "deterministic_starts": [
+          "original_cp3_p1"
+        ],
+        "maxiter": 2000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 167,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_33",
+        "successful_minimizations": 49,
+        "total_minimizations": 49
+      }
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        3.5977569566001617,
+        0.2164402755269769
+      ],
+      "depth": 2,
+      "expected_qubo_energy": 10.404213634410619,
+      "gammas": [
+        6.242382970650069,
+        1.4235210432468421
+      ],
+      "ideal_feasibility_same_angles": 0.34327922183083104,
+      "ideal_p_opt_same_angles": 0.23607876759773955,
+      "optimizer": {
+        "deterministic_starts": [
+          "p1_padded_with_zero_layers"
+        ],
+        "maxiter": 2000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 965,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_17",
+        "successful_minimizations": 45,
+        "total_minimizations": 49
+      }
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        3.602385392804371,
+        0.2081297246547231,
+        -0.04530081128921482
+      ],
+      "depth": 3,
+      "expected_qubo_energy": 10.170834230649799,
+      "gammas": [
+        6.241996448859063,
+        1.418028734445403,
+        0.29925000679223834
+      ],
+      "ideal_feasibility_same_angles": 0.35241712882178833,
+      "ideal_p_opt_same_angles": 0.24279152623326922,
+      "optimizer": {
+        "deterministic_starts": [
+          "p2_padded_with_zero_layers"
+        ],
+        "maxiter": 2000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 356,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p2_padded_with_zero_layers",
+        "successful_minimizations": 35,
+        "total_minimizations": 49
+      }
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        1.4969943736068052,
+        2.7089494819713305,
+        1.5298830375036687,
+        1.3417277270919328
+      ],
+      "depth": 4,
+      "expected_qubo_energy": 8.81285904950839,
+      "gammas": [
+        4.816115363780311,
+        5.347342164981872,
+        2.4934714070057313,
+        3.6805822959433763
+      ],
+      "ideal_feasibility_same_angles": 0.41117480849187393,
+      "ideal_p_opt_same_angles": 0.27414763114340246,
+      "optimizer": {
+        "deterministic_starts": [
+          "p3_padded_with_zero_layers"
+        ],
+        "maxiter": 2000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 1045,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_11",
+        "successful_minimizations": 28,
+        "total_minimizations": 49
+      }
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        1.478620044709197,
+        2.724487148965982,
+        1.5469026374335315,
+        1.3717196557591085,
+        0.08261604592870184,
+        0.07770896494207793
+      ],
+      "depth": 6,
+      "expected_qubo_energy": 7.254430836527741,
+      "gammas": [
+        4.81008571921258,
+        5.350943472998354,
+        2.5048897398285996,
+        3.690093367008122,
+        0.23962026394379016,
+        -0.09351828172556924
+      ],
+      "ideal_feasibility_same_angles": 0.5471828641136349,
+      "ideal_p_opt_same_angles": 0.366637323870043,
+      "optimizer": {
+        "deterministic_starts": [
+          "p4_padded_with_zero_layers"
+        ],
+        "maxiter": 2000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+        "optimizer_nfev": 2000,
+        "optimizer_success": false,
+        "random_restarts": 48,
+        "source": "p4_padded_with_zero_layers",
+        "successful_minimizations": 3,
+        "total_minimizations": 49
+      }
+    }
+  ],
+  "qubo_sha256": "031314bab18e775886371cbf9defa87f56936f19fd2ee3742478dd894b93646a",
+  "random_restarts_per_depth": 48,
+  "schema_version": 2,
+  "seed": 1,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "uniform_feasibility": 0.015625,
+  "uniform_p_opt": 0.01171875
+}

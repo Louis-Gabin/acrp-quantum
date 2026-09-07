@@ -1,0 +1,211 @@
+{
+  "backend": "ibm_kingston",
+  "circuit_qubits": 9,
+  "circuits": [
+    {
+      "betas": [
+        2.0555180537684503,
+        1.3533753457563467
+      ],
+      "depth": 2,
+      "expected_qubo_energy": 10.359086499578138,
+      "gammas": [
+        -0.04038269122803294,
+        1.4192081571265796
+      ],
+      "ideal_feasibility": 0.2632893637263681,
+      "ideal_p_opt": 0.21881677765027502,
+      "label": "p2_A",
+      "role": "drift_control"
+    },
+    {
+      "betas": [
+        1.4779148861362157,
+        2.711700412865158,
+        1.5587163937527757,
+        1.288251438006103,
+        0.06584916353082478,
+        -0.15664727697934389
+      ],
+      "depth": 6,
+      "expected_qubo_energy": 5.844989333861381,
+      "gammas": [
+        4.81561396676769,
+        5.347996746655594,
+        2.504786951172445,
+        3.686823867098007,
+        0.29727746000161276,
+        0.3190049052331744
+      ],
+      "ideal_feasibility": 0.6524202671607887,
+      "ideal_p_opt": 0.48035066694388157,
+      "label": "p6",
+      "role": "depth_point"
+    },
+    {
+      "betas": [
+        -1.1162786672219573,
+        -0.19948144055511188,
+        -1.7738641486672113
+      ],
+      "depth": 3,
+      "expected_qubo_energy": 8.360242611378759,
+      "gammas": [
+        6.248680043358427,
+        4.634799746641633,
+        3.0662334803177127
+      ],
+      "ideal_feasibility": 0.4329584652633936,
+      "ideal_p_opt": 0.30175830852602537,
+      "label": "p3_true",
+      "role": "independently_optimised_depth_point"
+    },
+    {
+      "betas": [
+        2.0555180537684503,
+        1.3533753457563467
+      ],
+      "depth": 2,
+      "expected_qubo_energy": 10.359086499578138,
+      "gammas": [
+        -0.04038269122803294,
+        1.4192081571265796
+      ],
+      "ideal_feasibility": 0.2632893637263681,
+      "ideal_p_opt": 0.21881677765027502,
+      "label": "p2_B",
+      "role": "drift_control"
+    },
+    {
+      "betas": [
+        1.4969943736068052,
+        2.7089494819713305,
+        1.5298830375036687,
+        1.3417277270919328
+      ],
+      "depth": 4,
+      "expected_qubo_energy": 8.81285904950839,
+      "gammas": [
+        4.816115363780311,
+        5.347342164981872,
+        2.4934714070057313,
+        3.6805822959433763
+      ],
+      "ideal_feasibility": 0.41117480849187393,
+      "ideal_p_opt": 0.27414763114340246,
+      "label": "p4",
+      "role": "depth_point"
+    },
+    {
+      "betas": [
+        2.0505313966191667,
+        1.3549384189598483,
+        0.0012406982911407254
+      ],
+      "depth": 3,
+      "expected_qubo_energy": 10.351181042807656,
+      "gammas": [
+        -0.04053316374792724,
+        1.4190843388222156,
+        -0.00036919521138989897
+      ],
+      "ideal_feasibility": 0.26339400656647693,
+      "ideal_p_opt": 0.21881076328888588,
+      "label": "p3_null",
+      "role": "null_layer_noise_cost_control"
+    },
+    {
+      "betas": [
+        2.686095526923323
+      ],
+      "depth": 1,
+      "expected_qubo_energy": 14.488900432243172,
+      "gammas": [
+        0.046777923718150906
+      ],
+      "ideal_feasibility": 0.12194846690693104,
+      "ideal_p_opt": 0.09447023753460398,
+      "label": "p1",
+      "role": "depth_point"
+    },
+    {
+      "betas": [
+        2.0555180537684503,
+        1.3533753457563467
+      ],
+      "depth": 2,
+      "expected_qubo_energy": 10.359086499578138,
+      "gammas": [
+        -0.04038269122803294,
+        1.4192081571265796
+      ],
+      "ideal_feasibility": 0.2632893637263681,
+      "ideal_p_opt": 0.21881677765027502,
+      "label": "p2_C",
+      "role": "drift_control"
+    }
+  ],
+  "common_initial_physical_layout_required": true,
+  "created_at_utc": "2026-08-30T20:10:05.567550Z",
+  "d_min": 8.0,
+  "heading_options": 3,
+  "instance": "CP_3",
+  "mode": "frozen_local_plan_no_ibm_contact",
+  "num_aircraft": 3,
+  "num_manoeuvres": 3,
+  "optimizer_p3_true": {
+    "maxiter": 5000,
+    "message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+    "method": "scipy_COBYLA_multistart",
+    "nfev": 4648,
+    "random_independent_restarts": 96,
+    "seed": 20260830,
+    "selected_on": "expected_qubo_energy",
+    "successful_restarts": 25
+  },
+  "plan_sha256": "f55d5c8761451657f56839e9054d9718d578748bf433ec2f132ecb832edbb74f",
+  "previous_angle_source": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_cp3_20260827T213336346638Z.json",
+  "prior_job_id": "da8aqcse74ec73aie27g",
+  "pub_order": [
+    "p2_A",
+    "p6",
+    "p3_true",
+    "p2_B",
+    "p4",
+    "p3_null",
+    "p1",
+    "p2_C"
+  ],
+  "qubo_sha256": "031314bab18e775886371cbf9defa87f56936f19fd2ee3742478dd894b93646a",
+  "sampler_options": {
+    "dynamical_decoupling": false,
+    "twirling_gates": false,
+    "twirling_measurements": false
+  },
+  "schema_version": 1,
+  "shots": 4096,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.49.0",
+    "scipy": "1.18.0"
+  },
+  "transpile_seed": 20260830,
+  "validations": {
+    "A_problem": true,
+    "B_prior_angles": true,
+    "C_true_p3": true,
+    "D_statevector": true,
+    "E_null_layer": true,
+    "F_frozen_plan": true,
+    "statevector_max_differences": {
+      "p1": 4.85722573273506e-17,
+      "p2": 1.5785983631388945e-16,
+      "p3": 1.6306400674181987e-16,
+      "p3_true": 1.1934897514720433e-15,
+      "p4": 8.187894806610529e-16,
+      "p6": 7.771561172376096e-16
+    }
+  }
+}

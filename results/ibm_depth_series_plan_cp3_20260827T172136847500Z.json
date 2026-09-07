@@ -1,0 +1,238 @@
+{
+  "circuit_qubits": 9,
+  "created_at_utc": "2026-08-27T17:21:36.848308Z",
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "heading_options": 3,
+  "instance": "CP_3",
+  "maxiter": 4000,
+  "mode": "local_plan_no_ibm_contact",
+  "num_aircraft": 3,
+  "num_manoeuvres": 3,
+  "optimisation_depths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "optimum_manoeuvres": 2,
+  "p1_reference_expected_qubo_energy": 26.98595550598172,
+  "plans": [
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        2.686095526923323
+      ],
+      "depth": 1,
+      "expected_qubo_energy": 14.488900432243172,
+      "gammas": [
+        0.046777923718150906
+      ],
+      "ideal_feasibility_same_angles": 0.12194846690693104,
+      "ideal_p_opt_same_angles": 0.09447023753460398,
+      "optimizer": {
+        "deterministic_starts": [
+          "original_cp3_p1"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 167,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_33",
+        "successful_minimizations": 49,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": true
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        2.0555180537684503,
+        1.3533753457563467
+      ],
+      "depth": 2,
+      "expected_qubo_energy": 10.359086499578138,
+      "gammas": [
+        -0.04038269122803294,
+        1.4192081571265796
+      ],
+      "ideal_feasibility_same_angles": 0.2632893637263681,
+      "ideal_p_opt_same_angles": 0.21881677765027502,
+      "optimizer": {
+        "deterministic_starts": [
+          "p1_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 2767,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_1",
+        "successful_minimizations": 49,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": true
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        2.0505313966191667,
+        1.3549384189598483,
+        0.0012406982911407254
+      ],
+      "depth": 3,
+      "expected_qubo_energy": 10.351181042807656,
+      "gammas": [
+        -0.04053316374792724,
+        1.4190843388222156,
+        -0.00036919521138989897
+      ],
+      "ideal_feasibility_same_angles": 0.26339400656647693,
+      "ideal_p_opt_same_angles": 0.21881076328888588,
+      "optimizer": {
+        "deterministic_starts": [
+          "p2_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 104,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p2_padded_with_zero_layers",
+        "successful_minimizations": 47,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": true
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        1.4969943736068052,
+        2.7089494819713305,
+        1.5298830375036687,
+        1.3417277270919328
+      ],
+      "depth": 4,
+      "expected_qubo_energy": 8.81285904950839,
+      "gammas": [
+        4.816115363780311,
+        5.347342164981872,
+        2.4934714070057313,
+        3.6805822959433763
+      ],
+      "ideal_feasibility_same_angles": 0.41117480849187393,
+      "ideal_p_opt_same_angles": 0.27414763114340246,
+      "optimizer": {
+        "deterministic_starts": [
+          "p3_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 1045,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_11",
+        "successful_minimizations": 44,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": true
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        1.4873488424933405,
+        2.745925766004155,
+        1.5581223270529674,
+        1.3870082843638674,
+        0.1273264494808761
+      ],
+      "depth": 5,
+      "expected_qubo_energy": 7.551194744347274,
+      "gammas": [
+        4.813474957540396,
+        5.349559726769917,
+        2.499084770401158,
+        3.6903084999325153,
+        0.2186229731003611
+      ],
+      "ideal_feasibility_same_angles": 0.5208851897988294,
+      "ideal_p_opt_same_angles": 0.3486128094102909,
+      "optimizer": {
+        "deterministic_starts": [
+          "p4_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 1953,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p4_padded_with_zero_layers",
+        "successful_minimizations": 28,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": false
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "betas": [
+        1.4779148861362157,
+        2.711700412865158,
+        1.5587163937527757,
+        1.288251438006103,
+        0.06584916353082478,
+        -0.15664727697934389
+      ],
+      "depth": 6,
+      "expected_qubo_energy": 5.844989333861381,
+      "gammas": [
+        4.81561396676769,
+        5.347996746655594,
+        2.504786951172445,
+        3.686823867098007,
+        0.29727746000161276,
+        0.3190049052331744
+      ],
+      "ideal_feasibility_same_angles": 0.6524202671607887,
+      "ideal_p_opt_same_angles": 0.48035066694388157,
+      "optimizer": {
+        "deterministic_starts": [
+          "p5_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 2199,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p5_padded_with_zero_layers",
+        "successful_minimizations": 12,
+        "total_minimizations": 49
+      },
+      "submit_to_hardware": true
+    }
+  ],
+  "qubo_sha256": "031314bab18e775886371cbf9defa87f56936f19fd2ee3742478dd894b93646a",
+  "random_restarts_per_depth": 48,
+  "schema_version": 4,
+  "seed": 1,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "uniform_feasibility": 0.015625,
+  "uniform_p_opt": 0.01171875
+}

@@ -1,0 +1,18 @@
+{
+  "backend": "ibm_kingston",
+  "campaign_id": "20260827T213336346638Z",
+  "circuits_in_single_job": 5,
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "job_id": "da8aqcse74ec73aie27g",
+  "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+  "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+  "schema_version": 4,
+  "shots_per_circuit": 4096,
+  "submitted_at_utc": "2026-08-27T21:33:40.075432Z"
+}

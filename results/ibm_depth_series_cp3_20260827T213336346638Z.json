@@ -1,0 +1,575 @@
+{
+  "backend": "ibm_kingston",
+  "campaign_id": "20260827T213336346638Z",
+  "circuit_qubits": 9,
+  "circuits_in_single_job": 5,
+  "common_initial_physical_layout": [
+    107,
+    108,
+    106,
+    105,
+    97,
+    109,
+    117,
+    87,
+    110
+  ],
+  "completed_at_utc": "2026-08-27T22:06:24.825306Z",
+  "instance": "CP_3",
+  "job_id": "da8aqcse74ec73aie27g",
+  "job_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "circuits_execution_time_ns": 5566930688,
+    "qiskit_version": "qiskit_ibm_runtime-0.49.0,qiskit-2.5.2*,qiskit_aer-0.17.2",
+    "timestamps": {
+      "created": "2026-08-27T21:33:39.906476Z",
+      "finished": "2026-08-27T22:06:21.339281Z",
+      "running": "2026-08-27T22:05:25.209743Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 8,
+      "status": "complete"
+    }
+  },
+  "optimum_manoeuvres": 2,
+  "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+  "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+  "quantum_seconds_job_total": 8.0,
+  "quantum_seconds_note": null,
+  "runs": [
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "backend": "ibm_kingston",
+      "backend_operational_at_submission": true,
+      "betas": [
+        2.686095526923323
+      ],
+      "campaign_id": "20260827T213336346638Z",
+      "circuit_qubits": 9,
+      "circuits_in_single_job": 5,
+      "completed_at_utc": "2026-08-27T22:06:23.100256Z",
+      "depth_transpiled": 119,
+      "expected_qubo_energy_ideal": 14.488900432243172,
+      "feasibility_ci95_shot_noise": [
+        0.09174568488099995,
+        0.11017467402484392
+      ],
+      "feasibility_rate": 0.1005859375,
+      "feasible_shots": 412,
+      "final_physical_layout": [
+        117,
+        110,
+        87,
+        105,
+        109,
+        106,
+        97,
+        107,
+        108
+      ],
+      "gammas": [
+        0.046777923718150906
+      ],
+      "ideal_feasibility_same_angles": 0.12194846690693104,
+      "ideal_p_opt_same_angles": 0.09447023753460398,
+      "initial_physical_layout": [
+        107,
+        108,
+        106,
+        105,
+        97,
+        109,
+        117,
+        87,
+        110
+      ],
+      "instance": "CP_3",
+      "job_id": "da8aqcse74ec73aie27g",
+      "num_aircraft": 3,
+      "num_manoeuvres": 3,
+      "optimization_level": 3,
+      "optimizer": {
+        "deterministic_starts": [
+          "original_cp3_p1"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 167,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_33",
+        "successful_minimizations": 49,
+        "total_minimizations": 49
+      },
+      "optimum_manoeuvres": 2,
+      "optimum_shots": 309,
+      "p_opt": 0.075439453125,
+      "p_opt_ci95_shot_noise": [
+        0.0677433783098704,
+        0.08393113522146364
+      ],
+      "p_opt_conditional_on_feasible": 0.75,
+      "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+      "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+      "pub_index": 0,
+      "qaoa_depth_p": 1,
+      "quantum_seconds_job_total": 8.0,
+      "quantum_seconds_note": null,
+      "sampler_options": {
+        "dynamical_decoupling": false,
+        "twirling_gates": false,
+        "twirling_measurements": false
+      },
+      "schema_version": 4,
+      "seed_transpiler": 1,
+      "shots": 4096,
+      "shots_requested": 4096,
+      "software_versions": {
+        "numpy": "2.5.2",
+        "python": "3.12.13",
+        "qiskit": "2.5.2",
+        "qiskit_ibm_runtime": "0.49.0",
+        "scipy": "1.18.0"
+      },
+      "two_qubit_gates": 54,
+      "uniform_feasibility": 0.015625,
+      "uniform_p_opt": 0.01171875,
+      "wall_seconds_job_total": 1966.2
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "backend": "ibm_kingston",
+      "backend_operational_at_submission": true,
+      "betas": [
+        2.0555180537684503,
+        1.3533753457563467
+      ],
+      "campaign_id": "20260827T213336346638Z",
+      "circuit_qubits": 9,
+      "circuits_in_single_job": 5,
+      "completed_at_utc": "2026-08-27T22:06:24.796689Z",
+      "depth_transpiled": 246,
+      "expected_qubo_energy_ideal": 10.359086499578138,
+      "feasibility_ci95_shot_noise": [
+        0.11757707091059072,
+        0.13800389956026365
+      ],
+      "feasibility_rate": 0.12744140625,
+      "feasible_shots": 522,
+      "final_physical_layout": [
+        117,
+        87,
+        110,
+        105,
+        106,
+        109,
+        108,
+        107,
+        97
+      ],
+      "gammas": [
+        -0.04038269122803294,
+        1.4192081571265796
+      ],
+      "ideal_feasibility_same_angles": 0.2632893637263681,
+      "ideal_p_opt_same_angles": 0.21881677765027502,
+      "initial_physical_layout": [
+        107,
+        108,
+        106,
+        105,
+        97,
+        109,
+        117,
+        87,
+        110
+      ],
+      "instance": "CP_3",
+      "job_id": "da8aqcse74ec73aie27g",
+      "num_aircraft": 3,
+      "num_manoeuvres": 3,
+      "optimization_level": 3,
+      "optimizer": {
+        "deterministic_starts": [
+          "p1_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 2767,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_1",
+        "successful_minimizations": 49,
+        "total_minimizations": 49
+      },
+      "optimum_manoeuvres": 2,
+      "optimum_shots": 420,
+      "p_opt": 0.1025390625,
+      "p_opt_ci95_shot_noise": [
+        0.09361825903578103,
+        0.1122046898020636
+      ],
+      "p_opt_conditional_on_feasible": 0.8045977011494253,
+      "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+      "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+      "pub_index": 1,
+      "qaoa_depth_p": 2,
+      "quantum_seconds_job_total": 8.0,
+      "quantum_seconds_note": null,
+      "sampler_options": {
+        "dynamical_decoupling": false,
+        "twirling_gates": false,
+        "twirling_measurements": false
+      },
+      "schema_version": 4,
+      "seed_transpiler": 1,
+      "shots": 4096,
+      "shots_requested": 4096,
+      "software_versions": {
+        "numpy": "2.5.2",
+        "python": "3.12.13",
+        "qiskit": "2.5.2",
+        "qiskit_ibm_runtime": "0.49.0",
+        "scipy": "1.18.0"
+      },
+      "two_qubit_gates": 139,
+      "uniform_feasibility": 0.015625,
+      "uniform_p_opt": 0.01171875,
+      "wall_seconds_job_total": 1966.2
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "backend": "ibm_kingston",
+      "backend_operational_at_submission": true,
+      "betas": [
+        2.0505313966191667,
+        1.3549384189598483,
+        0.0012406982911407254
+      ],
+      "campaign_id": "20260827T213336346638Z",
+      "circuit_qubits": 9,
+      "circuits_in_single_job": 5,
+      "completed_at_utc": "2026-08-27T22:06:24.806556Z",
+      "depth_transpiled": 403,
+      "expected_qubo_energy_ideal": 10.351181042807656,
+      "feasibility_ci95_shot_noise": [
+        0.06565707488526022,
+        0.08162702497257295
+      ],
+      "feasibility_rate": 0.0732421875,
+      "feasible_shots": 300,
+      "final_physical_layout": [
+        117,
+        110,
+        87,
+        105,
+        97,
+        109,
+        106,
+        108,
+        107
+      ],
+      "gammas": [
+        -0.04053316374792724,
+        1.4190843388222156,
+        -0.00036919521138989897
+      ],
+      "ideal_feasibility_same_angles": 0.26339400656647693,
+      "ideal_p_opt_same_angles": 0.21881076328888588,
+      "initial_physical_layout": [
+        107,
+        108,
+        106,
+        105,
+        97,
+        109,
+        117,
+        87,
+        110
+      ],
+      "instance": "CP_3",
+      "job_id": "da8aqcse74ec73aie27g",
+      "num_aircraft": 3,
+      "num_manoeuvres": 3,
+      "optimization_level": 3,
+      "optimizer": {
+        "deterministic_starts": [
+          "p2_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 104,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p2_padded_with_zero_layers",
+        "successful_minimizations": 47,
+        "total_minimizations": 49
+      },
+      "optimum_manoeuvres": 2,
+      "optimum_shots": 226,
+      "p_opt": 0.05517578125,
+      "p_opt_ci95_shot_noise": [
+        0.0485911665166027,
+        0.06259397647022341
+      ],
+      "p_opt_conditional_on_feasible": 0.7533333333333333,
+      "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+      "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+      "pub_index": 2,
+      "qaoa_depth_p": 3,
+      "quantum_seconds_job_total": 8.0,
+      "quantum_seconds_note": null,
+      "sampler_options": {
+        "dynamical_decoupling": false,
+        "twirling_gates": false,
+        "twirling_measurements": false
+      },
+      "schema_version": 4,
+      "seed_transpiler": 1,
+      "shots": 4096,
+      "shots_requested": 4096,
+      "software_versions": {
+        "numpy": "2.5.2",
+        "python": "3.12.13",
+        "qiskit": "2.5.2",
+        "qiskit_ibm_runtime": "0.49.0",
+        "scipy": "1.18.0"
+      },
+      "two_qubit_gates": 241,
+      "uniform_feasibility": 0.015625,
+      "uniform_p_opt": 0.01171875,
+      "wall_seconds_job_total": 1966.2
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "backend": "ibm_kingston",
+      "backend_operational_at_submission": true,
+      "betas": [
+        1.4969943736068052,
+        2.7089494819713305,
+        1.5298830375036687,
+        1.3417277270919328
+      ],
+      "campaign_id": "20260827T213336346638Z",
+      "circuit_qubits": 9,
+      "circuits_in_single_job": 5,
+      "completed_at_utc": "2026-08-27T22:06:24.814618Z",
+      "depth_transpiled": 528,
+      "expected_qubo_energy_ideal": 8.81285904950839,
+      "feasibility_ci95_shot_noise": [
+        0.13007909174381413,
+        0.1513565370265453
+      ],
+      "feasibility_rate": 0.140380859375,
+      "feasible_shots": 575,
+      "final_physical_layout": [
+        110,
+        117,
+        87,
+        109,
+        105,
+        108,
+        97,
+        107,
+        106
+      ],
+      "gammas": [
+        4.816115363780311,
+        5.347342164981872,
+        2.4934714070057313,
+        3.6805822959433763
+      ],
+      "ideal_feasibility_same_angles": 0.41117480849187393,
+      "ideal_p_opt_same_angles": 0.27414763114340246,
+      "initial_physical_layout": [
+        107,
+        108,
+        106,
+        105,
+        97,
+        109,
+        117,
+        87,
+        110
+      ],
+      "instance": "CP_3",
+      "job_id": "da8aqcse74ec73aie27g",
+      "num_aircraft": 3,
+      "num_manoeuvres": 3,
+      "optimization_level": 3,
+      "optimizer": {
+        "deterministic_starts": [
+          "p3_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 1045,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "random_11",
+        "successful_minimizations": 44,
+        "total_minimizations": 49
+      },
+      "optimum_manoeuvres": 2,
+      "optimum_shots": 356,
+      "p_opt": 0.0869140625,
+      "p_opt_ci95_shot_noise": [
+        0.07866929308697497,
+        0.09593293629486356
+      ],
+      "p_opt_conditional_on_feasible": 0.6191304347826087,
+      "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+      "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+      "pub_index": 3,
+      "qaoa_depth_p": 4,
+      "quantum_seconds_job_total": 8.0,
+      "quantum_seconds_note": null,
+      "sampler_options": {
+        "dynamical_decoupling": false,
+        "twirling_gates": false,
+        "twirling_measurements": false
+      },
+      "schema_version": 4,
+      "seed_transpiler": 1,
+      "shots": 4096,
+      "shots_requested": 4096,
+      "software_versions": {
+        "numpy": "2.5.2",
+        "python": "3.12.13",
+        "qiskit": "2.5.2",
+        "qiskit_ibm_runtime": "0.49.0",
+        "scipy": "1.18.0"
+      },
+      "two_qubit_gates": 317,
+      "uniform_feasibility": 0.015625,
+      "uniform_p_opt": 0.01171875,
+      "wall_seconds_job_total": 1966.2
+    },
+    {
+      "angle_selection_criterion": "expected_qubo_energy",
+      "backend": "ibm_kingston",
+      "backend_operational_at_submission": true,
+      "betas": [
+        1.4779148861362157,
+        2.711700412865158,
+        1.5587163937527757,
+        1.288251438006103,
+        0.06584916353082478,
+        -0.15664727697934389
+      ],
+      "campaign_id": "20260827T213336346638Z",
+      "circuit_qubits": 9,
+      "circuits_in_single_job": 5,
+      "completed_at_utc": "2026-08-27T22:06:24.822187Z",
+      "depth_transpiled": 840,
+      "expected_qubo_energy_ideal": 5.844989333861381,
+      "feasibility_ci95_shot_noise": [
+        0.09455493861364034,
+        0.11321930519020468
+      ],
+      "feasibility_rate": 0.103515625,
+      "feasible_shots": 424,
+      "final_physical_layout": [
+        110,
+        105,
+        117,
+        106,
+        97,
+        87,
+        109,
+        107,
+        108
+      ],
+      "gammas": [
+        4.81561396676769,
+        5.347996746655594,
+        2.504786951172445,
+        3.686823867098007,
+        0.29727746000161276,
+        0.3190049052331744
+      ],
+      "ideal_feasibility_same_angles": 0.6524202671607887,
+      "ideal_p_opt_same_angles": 0.48035066694388157,
+      "initial_physical_layout": [
+        107,
+        108,
+        106,
+        105,
+        97,
+        109,
+        117,
+        87,
+        110
+      ],
+      "instance": "CP_3",
+      "job_id": "da8aqcse74ec73aie27g",
+      "num_aircraft": 3,
+      "num_manoeuvres": 3,
+      "optimization_level": 3,
+      "optimizer": {
+        "deterministic_starts": [
+          "p5_padded_with_zero_layers"
+        ],
+        "maxiter": 4000,
+        "method": "scipy_COBYLA_multistart",
+        "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+        "optimizer_nfev": 2199,
+        "optimizer_success": true,
+        "random_restarts": 48,
+        "source": "p5_padded_with_zero_layers",
+        "successful_minimizations": 12,
+        "total_minimizations": 49
+      },
+      "optimum_manoeuvres": 2,
+      "optimum_shots": 356,
+      "p_opt": 0.0869140625,
+      "p_opt_ci95_shot_noise": [
+        0.07866929308697497,
+        0.09593293629486356
+      ],
+      "p_opt_conditional_on_feasible": 0.839622641509434,
+      "plan_file": "/Users/louis-gabin/Library/CloudStorage/OneDrive-SKEMABusinessSchool/SKEMA/MASTER 2/S6/THESIS LOUIS/acrp-quantum 2/results/ibm_depth_series_plan_cp3_20260827T172136847500Z.json",
+      "plan_file_sha256": "d71151f6c28c9502db712044f6b248d09efc6c088230ae7338adb96581dd614c",
+      "pub_index": 4,
+      "qaoa_depth_p": 6,
+      "quantum_seconds_job_total": 8.0,
+      "quantum_seconds_note": null,
+      "sampler_options": {
+        "dynamical_decoupling": false,
+        "twirling_gates": false,
+        "twirling_measurements": false
+      },
+      "schema_version": 4,
+      "seed_transpiler": 1,
+      "shots": 4096,
+      "shots_requested": 4096,
+      "software_versions": {
+        "numpy": "2.5.2",
+        "python": "3.12.13",
+        "qiskit": "2.5.2",
+        "qiskit_ibm_runtime": "0.49.0",
+        "scipy": "1.18.0"
+      },
+      "two_qubit_gates": 513,
+      "uniform_feasibility": 0.015625,
+      "uniform_p_opt": 0.01171875,
+      "wall_seconds_job_total": 1966.2
+    }
+  ],
+  "schema_version": 4,
+  "shots_per_circuit": 4096,
+  "software_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.49.0",
+    "scipy": "1.18.0"
+  },
+  "uniform_feasibility": 0.015625,
+  "uniform_p_opt": 0.01171875,
+  "wall_seconds_job_total": 1966.2
+}
